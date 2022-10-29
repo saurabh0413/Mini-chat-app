@@ -18,7 +18,7 @@ const Signup = () => {
   const [confirmpassword, setConfirmpassword] = useState();
   const [pic, setPic] = useState();
   const handlePassClick = () => {
-    console.log(show, "show");
+    
     setShow(!show);
   };
   const submitHandler = () => {};
